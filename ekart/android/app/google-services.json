@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "936623626438",
+    "project_id": "optibank-5785d",
+    "storage_bucket": "optibank-5785d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936623626438:android:11245928adb18996e7dfc7",
+        "android_client_info": {
+          "package_name": "com.example.ekart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936623626438-jvgn4m9apmthm2fnlaojkv8e4c6948r8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ekart",
+            "certificate_hash": "567ef4e37b77acbc21f276a9cd03cfc58cc6720a"
+          }
+        },
+        {
+          "client_id": "936623626438-sb9cu0tqj69e029h4a3paf2oepgd1rk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxWzQr2ypuPhJyQLYUOnh3s1lDhGuCZkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936623626438-sb9cu0tqj69e029h4a3paf2oepgd1rk0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "936623626438-0hp66mjirb8ubj50rk7iae58e14vkt4v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ekart.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
