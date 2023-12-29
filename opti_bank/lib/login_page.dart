@@ -1,18 +1,10 @@
 import 'package:flutter/material.dart';
-import 'bank.dart'; // Import BankEmployeeScreen
-import 'home-page.dart'; // Import HomeScreen
-import 'package:provider/provider.dart';
-import 'package:google_sign_in/google_sign_in.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'AuthProvider.dart';
-
-
-void main() {
-  runApp(const MaterialApp(
-    title: 'Login Page',
-    home: LoginPage(),
-  ));
-}
+//import 'bank.dart'; // Import BankEmployeeScreen
+//import 'home-page.dart'; // Import HomeScreen
+//import 'package:provider/provider.dart';
+//import 'package:google_sign_in/google_sign_in.dart';
+//import 'package:firebase_auth/firebase_auth.dart';
+//import 'AuthProvider.dart';
 
 class LoginPage extends StatefulWidget {
 
@@ -131,13 +123,8 @@ class BankEmployeeLoginPage extends StatelessWidget {
             const SizedBox(height: 16),
             ElevatedButton(
               onPressed: () {
-                // Perform Bank Employee Login Logic
-                Navigator.pushReplacement(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const BankEmployeeScreen(),
-                  ),
-                );
+               // Perform Bank Employee Login Logic
+
               },
               child: const Text('Login'),
             ),
@@ -178,7 +165,7 @@ class CustomerLoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var serviceModel = Provider.of<ServiceModel>(context);
+    //var serviceModel = Provider.of<ServiceModel>(context);
 
     TextEditingController emailController = TextEditingController();
     TextEditingController passwordController = TextEditingController();
@@ -227,15 +214,9 @@ class CustomerLoginPage extends StatelessWidget {
                 // Validate email and password here if needed
 
                 // Perform login
-                serviceModel.login();
+               // serviceModel.login();
 
-                // Navigate to the HomeScreen
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const HomeScreen(),
-                  ),
-                );
+
               },
               child: const Text('Login'),
             ),
@@ -403,4 +384,3 @@ class ForgotPasswordPage extends StatelessWidget {
     );
   }
 }
-// ... (Other classes remain the same)

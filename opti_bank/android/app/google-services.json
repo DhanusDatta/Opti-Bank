@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "512409372931",
+    "project_id": "opti-bank",
+    "storage_bucket": "opti-bank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512409372931:android:a5f69ac7f6e7d38904c136",
+        "android_client_info": {
+          "package_name": "com.example.opti_bank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512409372931-gi8aa0s5on6dstrh0u5aogte6848kn3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.opti_bank",
+            "certificate_hash": "1a2241dc906469698df87c73e7b26711ddfab873"
+          }
+        },
+        {
+          "client_id": "512409372931-igk515mm4tk8f7qpl5g3qfujk423baiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlegLuhOf62z0gtP2M_COhu8mutM00xrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512409372931-igk515mm4tk8f7qpl5g3qfujk423baiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

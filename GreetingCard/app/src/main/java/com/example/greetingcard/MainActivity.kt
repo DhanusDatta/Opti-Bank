@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
             GreetingCardTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Greeting("Android")
+                    Greeting("Datta")
                 }
                 
             }
@@ -32,10 +32,11 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Surface(color = Color.Cyan) {
+    Surface(color = Color.White) {
         Text(
             text = "Hi!!! My name is $name!",
-            modifier = modifier.padding(24.dp)
+            modifier = modifier.padding(24.dp),
+            color=Color.Black
         )
     }
 }
